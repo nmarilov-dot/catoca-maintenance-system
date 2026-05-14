@@ -23,7 +23,7 @@ const ProtectedRoute = ({ children }) => {
 
 function App() {
   return (
-    <BrowserRouter basename="/catoca-toir">
+    <BrowserRouter>
       <Routes>
         <Route path="/login" element={<Login />} />
         
